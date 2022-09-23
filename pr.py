@@ -20,3 +20,11 @@ print(numbers)
 numbers[1] = int(input("Choose new number: "))
 numbers[4] = int(input("Choose another number: "))
 print(numbers)
+
+
+list = ["a", "b", "c", "d", "e"]
+print(list)
+for i in range(len(list)):
+    if list[i] == "b":
+        list[i] = "B"
+print(list)
