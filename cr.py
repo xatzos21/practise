@@ -23,8 +23,8 @@ def sum2(n4,n5):
 def sum3(n6,n7):
     return n6 / n7
 
-x = int(input("Enter first number: "))
-y = int(input("Enter second number: "))
+x = float(input("Enter first number: "))
+y = float(input("Enter second number: "))
 z = str(input("Choose action +,-,*,/ "))
 if z == "+":
     print("Result is: ", sum(x,y))
