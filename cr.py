@@ -21,7 +21,10 @@ def sum2(n4,n5):
     return n4 * n5
 
 def sum3(n6,n7):
-    return n6 / n7
+    if n7 == 0:
+        print("You cannot divide a number by zero")
+    else:
+        return n6 / n7
 
 x = float(input("Enter first number: "))
 y = float(input("Enter second number: "))
