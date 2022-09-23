@@ -22,9 +22,15 @@ numbers[4] = int(input("Choose another number: "))
 print(numbers)
 
 
-list = ["a", "b", "c", "d", "e"]
-print(list)
-for i in range(len(list)):
-    if list[i] == "b":
-        list[i] = "B"
-print(list)
+list1 = ["a", "b", "c", "d", "e"]
+print(list1)
+for i in range(len(list1)):
+    if list1[i] == "b":
+        list1[i] = "B"
+print(list1)
+
+x = list1.index("B")
+print(x)
+list1 = list1[:x]+["b"]+list1[x+1:]
+print(list1)
+
